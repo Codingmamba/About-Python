@@ -1,3 +1,28 @@
 body {
+    margin: 10px;
+}
+
+.wrapper {
     background-color: #245076;
+}
+
+header {
+    display: inline-flex;
+}
+
+header p {
+    margin-left: 1080px;
+    color: white;
+}
+
+.gold-font {
+    color: darkgoldenrod;
+}
+
+span {
+    color: black;
+}
+
+#search {
+    background-color: rgb(58, 58, 58);
 }

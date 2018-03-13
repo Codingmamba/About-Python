@@ -1,10 +1,10 @@
 body {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .wrapper {
     background-color: #245076;
-    padding-bottom: 80px;
+    padding-bottom: 1px;
 }
 
 header {
@@ -29,7 +29,18 @@ span {
     border-radius: 15px;
     text-align: center;
     margin-top: 60px;
-    padding: 1px;
+    padding: -10px;
+}
+
+input {
+    text-align: center;
+    margin-top: 35px;
+}
+
+button {
+    background-color: #245076;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 nav {
@@ -37,7 +48,7 @@ nav {
     border-radius: 10px;
     box-shadow: 3px 3px;
     padding: 10px;
-    margin: 0px 85px 0px 85px;
+    margin: 0px 105px 0px 105px;
 }
 
 nav li {
@@ -45,21 +56,67 @@ nav li {
     color: white;
     padding: 0px;
     font-size: 25px;
-    margin-left: 145px;
+    margin-left: 140px;
 }
 
 #side-nav {
     color: white;
+    margin: 110px 1300px 0px 80px;
 }
 
-#info {
-    width: 480px;
+#side-nav ul li {
+    padding: 5px;
+    font-size: 30px;
+    list-style-type: circle solid darkgoldenrod;
+}
+
+.info {
+    width: 615px;
+    height: 300px;
     color: white;
-    
+    margin-bottom: 800px;
+    margin-left: 1100px;
+    font-size: 30px;
 }
 
-#info ul li {
+.info p {
+    margin-top: -400px;
+}
+
+.info ul li {
     color: darkgoldenrod;
     list-style-type: none;
     text-decoration: none;
+    font-size: 22px;
+    padding: 5px;
+}
+
+#zen-of-python {
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+#first-line {
+    color:#3b79ad;
+    padding: 3px;
+    background-color: #3b79ad;
+    width: 700px;
+    border: #3b79ad;
+    margin-right: 1200px;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+section ul > li {
+    color: black;
+}
+
+
+section ul > li > span {
+    color: #3b79ad;
 }
